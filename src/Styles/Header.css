@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Espaça os itens */
+  align-items: center; /* Alinha verticalmente */
+  padding: 10px 20px; /* Espaçamento interno */
+  background-color: #fff; /* Fundo branco */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+  position: fixed; /* Fixa o header no topo */
+  top: 0; /* Alinha ao topo da página */
+  left: 0; /* Alinha à esquerda da página */
+  right: 0; /* Alinha à direita da página */
+  z-index: 1000; /* Garante que o header fique acima de outros elementos */
+}
+
+.welcome {
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+}
+
+.user-icon {
+  width: 40px; /* Tamanho do ícone */
+  height: 40px; /* Tamanho do ícone */
+  margin-right: 10px; /* Espaçamento à direita do ícone */
+  color: #009c3b; /* Cor do ícone */
+}
+
+.app-name {
+  color: #009c3b; /* Cor do nome do app */
+  font-size: 5vw; /* Tamanho da fonte */
+}

@@ -1,0 +1,120 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  height: 100vh; /* Altura total da tela */
+  background-color: #009c3b; /* Verde da bandeira do Brasil */
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.app-name {
+  text-align: center;
+  font-size: 7vw; /* Tamanho da fonte responsivo */
+  color: #009c3b; /* Cor do texto */
+  margin-bottom: 10px; /* Margem inferior para espaçamento */
+}
+
+.card {
+  background-color: #fff; /* Fundo branco para o card */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para o card */
+  padding: 20px; /* Espaçamento interno */
+  width: 90%; /* Largura do card */
+  max-width: 400px; /* Largura máxima do card */
+  margin: 0 auto; /* Centraliza o card horizontalmente */
+}
+
+h1 {
+  margin-bottom: 2vh; /* Margem inferior em vh */
+  color: #333; /* Cor do texto do título */
+  font-size: 5vw; /* Tamanho da fonte em vw */
+}
+
+.input-group {
+  margin-bottom: 15px; /* Margem inferior para os inputs */
+  width: 100%; /* Largura total */
+}
+
+label {
+  margin-bottom: 1vh; /* Margem inferior em vh */
+  display: block;
+  color: #333; /* Cor do texto do rótulo */
+  font-size: 4vw; /* Tamanho da fonte em vw */
+}
+
+input {
+  width: 60vw;
+  padding: 2vh; /* Padding em vh para responsividade */
+  border: 1px solid #ccc; /* Borda leve */
+  border-radius: 5px;
+  font-size: 4vw; /* Tamanho da fonte em vw */
+}
+
+input:focus {
+  border-color: #009c3b; /* Cor da borda ao focar */
+  outline: none; /* Remove o contorno padrão */
+}
+
+.btn-primary {
+  background-color: #ffcc29; /* Amarelo da bandeira do Brasil */
+  color: #000;
+  padding: 2vh; /* Padding em vh para responsividade */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Largura total do botão */
+  font-size: 4vw; /* Tamanho da fonte em vw */
+  margin-top: 2vh; /* Margem superior em vh */
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+.btn-primary:hover {
+  background-color: #e6b800; /* Cor ao passar o mouse */
+}
+
+.btn-secondary {
+  background-color: #0057f9; /* Amarelo da bandeira do Brasil */
+  color: #ffffff;
+  padding: 2vh; /* Padding em vh para responsividade */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Largura total do botão */
+  text-align: center;
+  margin-top: 2vh; /* Margem superior em vh */
+  font-size: 4vw; /* Tamanho da fonte em vw */
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+.btn-secondary:hover {
+  background-color: #e6b800; /* Cor ao passar o mouse */
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  margin-top: 2vh; /* Margem superior em vh */
+  color: #009c3b; /* Cor do texto do link */
+  font-size: 3.5vw; /* Tamanho da fonte em vw */
+  border: none;
+  align-self: center;
+  background-color: none;
+}
+
+button {
+  background-color: #fff; /* Fundo branco para os botões */
+  color: #009c3b; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 1em; /* Tamanho da fonte */
+  margin: 5px 0; /* Margem entre os botões */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+  background-color: #e6e6e6; /* Cor ao passar o mouse */
+}

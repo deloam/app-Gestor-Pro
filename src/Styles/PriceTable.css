@@ -1,0 +1,52 @@
+.price-table {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffcc29; /* Cor de fundo */
+  width: 80vw;
+  border-radius: 10px;
+  margin: 0 auto; /* Centraliza o contêiner */
+}
+
+.category {
+  margin: 20px 0; /* Margem entre as categorias */
+}
+
+h2 {
+  font-size: 5vw;
+  margin-bottom: 4vh; /* Margem inferior do título principal */
+  color: #009c3b;
+}
+
+h3 {
+  margin: 10px 0; /* Margem entre o título da categoria e a tabela */
+  color: #0057f9;
+}
+
+table {
+  width: 100%; /* Largura da tabela */
+  border-collapse: collapse; /* Colapsa as bordas da tabela */
+  border: none;
+}
+
+th,
+td {
+  border: 1px solid #ccc; /* Borda das células */
+  padding: 10px; /* Espaçamento interno */
+  text-align: left; /* Alinhamento do texto */
+  color: #000;
+}
+
+th {
+  background-color: #009c3b; /* Cor de fundo do cabeçalho */
+}
+
+td {
+  background-color: #e6f7ff; /* Cor de fundo das células */
+}
+/* Estilo para o último item da tabela (remove a borda inferior) */
+tr:last-child td {
+  border-bottom: none;
+}
+tr:first-child th {
+  color: #e6f7ff;
+}

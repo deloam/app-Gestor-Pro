@@ -1,0 +1,45 @@
+.proposal-view-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffcc29; /* Cor de fundo */
+  width: 85vw;
+  border-radius: 10px;
+  margin: 0 auto; /* Centraliza o contêiner */
+}
+
+.proposal-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.proposal-card {
+  background-color: #fff; /* Fundo branco para os cards */
+  border: 1px solid #ccc; /* Borda do card */
+  border-radius: 5px; /* Bordas arredondadas */
+  padding: 15px;
+  margin: 10px 0; /* Margem entre os cards */
+  width: 95%; /* Largura do card */
+  max-width: 400px; /* Largura máxima do card */
+}
+
+.select-btn {
+  background-color: #4caf50; /* Cor do botão de selecionar */
+  color: #fff; /* Cor do texto */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* Margem superior */
+}
+
+.cancel-btn {
+  width: 50%;
+  background-color: #0057f9; /* Cor do botão de cancelar */
+  color: #fff; /* Cor do texto */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px; /* Margem superior */
+}

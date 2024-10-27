@@ -1,0 +1,60 @@
+.request-service {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1; /* Amarelo da bandeira do Brasil */
+  width: 80vw;
+  border-radius: 10px;
+  margin: 0 auto; /* Centraliza o contêiner */
+}
+
+.form-group {
+  margin: 15px 0; /* Espaçamento entre os grupos de formulário */
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em; /* Tamanho da fonte */
+}
+span {
+  color: black;
+}
+textarea {
+  height: 100px; /* Altura do textarea */
+  width: 70vw;
+}
+
+.urgency-options {
+  display: flex;
+  justify-content: space-around; /* Espaça as opções de urgência */
+  margin: 10px 0; /* Margem superior e inferior */
+}
+
+.urgency-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.urgency-option.selected {
+  border: 2px solid #009c3b; /* Borda verde para a opção selecionada */
+}
+
+.submit-btn {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50; /* Verde para o botão */
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em; /* Tamanho da fonte */
+}
