@@ -7,6 +7,7 @@
   background-color: #009c3b; /* Verde da bandeira do Brasil */
   color: #fff;
   font-family: Arial, sans-serif;
+  width: 90%;
 }
 
 .app-name {
@@ -22,7 +23,7 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para o card */
   padding: 20px; /* Espaçamento interno */
   width: 90%; /* Largura do card */
-  max-width: 400px; /* Largura máxima do card */
+  max-width: 900px; /* Largura máxima do card */
   margin: 0 auto; /* Centraliza o card horizontalmente */
 }
 
@@ -34,7 +35,7 @@ h1 {
 
 .input-group {
   margin-bottom: 15px; /* Margem inferior para os inputs */
-  width: 100%; /* Largura total */
+  width: 95%; /* Largura total */
 }
 
 label {
@@ -45,7 +46,6 @@ label {
 }
 
 input {
-  width: 60vw;
   padding: 2vh; /* Padding em vh para responsividade */
   border: 1px solid #ccc; /* Borda leve */
   border-radius: 5px;
