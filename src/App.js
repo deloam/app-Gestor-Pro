@@ -14,6 +14,11 @@ import EquipmentHistory from "./components/EquipmentHistory"; // Importando o Eq
 import Header from "./components/Header"; // Importando o Header
 import ProposalView from "./components/ProposalView"; // Importando o ProposalView
 import PriceTable from "./components/PriceTable"; // Importando o PriceTable
+import CreateAccount from "./components/CreateAccount";
+import TechnicianRegistration from "./components/TechnicianRegistration";
+import OpenCalls from "./components/OpenCalls";
+
+// Adicione a nova rota dentro do componente Routes
 
 function App() {
   const location = useLocation(); // Hook para obter a localização atual
@@ -39,6 +44,12 @@ function App() {
         {/* Rota para visualizar propostas */}
         <Route path="/price-table" element={<PriceTable />} />{" "}
         {/* Rota para tabela de preços */}
+        <Route path="/create-account" element={<CreateAccount />} />
+        <Route
+          path="/technician-registration"
+          element={<TechnicianRegistration />}
+        />
+        <Route path="/open-calls" element={<OpenCalls />} />
       </Routes>
     </div>
   );

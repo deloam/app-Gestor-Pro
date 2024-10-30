@@ -50,7 +50,11 @@ const Login = () => {
             Entrar
           </button>
 
-          <button type="button" className="btn-secondary">
+          <button
+            type="button"
+            className="btn-secondary"
+            onClick={() => navigate("/create-account")}
+          >
             Criar conta
           </button>
         </form>

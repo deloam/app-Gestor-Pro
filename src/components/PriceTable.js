@@ -1,5 +1,5 @@
 import React from "react";
-import BottomMenu from "./BottomMenu"; // Importando o BottomMenu
+import BottomMenuInstitution from "./BottomMenuinstitution"; // Importando o BottomMenu
 import "../Styles/PriceTable.css"; // Importando o CSS
 import { useNavigate } from "react-router-dom"; // Importando useNavigate
 
@@ -86,7 +86,7 @@ const PriceTable = () => {
         </button>
       </div>
       <div style={{ marginBottom: "80px" }} /> {/* Espaço para o BottomMenu */}
-      <BottomMenu /> {/* Adicionando o BottomMenu */}
+      <BottomMenuInstitution /> {/* Adicionando o BottomMenu */}
     </div>
   );
 };

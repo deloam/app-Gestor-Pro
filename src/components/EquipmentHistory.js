@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Importando useNavigate
-import BottomMenu from "./BottomMenu"; // Importando o BottomMenu
+import BottomMenuInstitution from "./BottomMenuinstitution"; // Importando o BottomMenu
 import "../Styles/EquipmentHistory.css";
 
 const equipmentData = [
@@ -99,7 +99,7 @@ function EquipmentHistory() {
         </button>
       </div>
       <div style={{ marginBottom: "80px" }} /> {/* Espaço para o BottomMenu */}
-      <BottomMenu /> {/* Adicionando o BottomMenu */}
+      <BottomMenuInstitution /> {/* Adicionando o BottomMenu */}
     </div>
   );
 }

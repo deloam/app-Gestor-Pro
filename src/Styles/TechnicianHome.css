@@ -1,0 +1,59 @@
+.technician-home {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffcc29; /* Cor de fundo */
+  width: 80vw;
+  border-radius: 10px;
+  margin: 0 auto; /* Centraliza o contêiner */
+  height: 100%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.highlighted-button {
+  background-color: #009c3b; /* Cor de destaque */
+  color: #fff;
+  padding: 2vh 2vw;
+  border: none;
+  border-radius: 5px;
+  font-size: 6vw;
+  margin-bottom: 2vh;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  height: 20vh;
+}
+.button-icon {
+  font-size: 15vw; /* Tamanho do ícone */
+  margin-bottom: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.highlighted-button,
+.normal-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.normal-button {
+  background-color: #fff; /* Fundo branco para os outros botões */
+  color: #009c3b; /* Cor do texto */
+  padding: 2vh 2vw; /* Espaçamento interno */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 6vw; /* Tamanho da fonte */
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  height: 20vh;
+}

@@ -1,0 +1,92 @@
+.technician-registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffcc29;
+  min-height: 100vh;
+  border-radius: 10px;
+}
+
+.registration-form {
+  width: 90%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #009c3b;
+  font-weight: bold;
+  font-size: 4vw;
+}
+.form-group && .file-label2 {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 3.5vw;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label2 {
+  display: block;
+  background-color: #009c3b;
+  color: white !important;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 3.5vw;
+}
+
+.file-name {
+  margin-top: 5px;
+  font-size: 3vw;
+  color: #ff0000;
+}
+
+.submit-button {
+  background-color: #009c3b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  font-size: 4vw;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.back-button {
+  background-color: #0057f9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 50%;
+  font-size: 4vw;
+  cursor: pointer;
+  margin-top: 20px;
+}

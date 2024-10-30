@@ -6,7 +6,7 @@ import {
   PiCellSignalFullFill,
 } from "react-icons/pi";
 import "../Styles/RequestService.css"; // Importando o CSS
-import BottomMenu from "./BottomMenu"; // Importando o BottomMenu
+import BottomMenuInstitution from "./BottomMenuinstitution"; // Importando o BottomMenu
 
 function RequestService() {
   const navigate = useNavigate(); // Hook para navegação
@@ -114,7 +114,7 @@ function RequestService() {
         Voltar
       </button>
       <div style={{ marginBottom: "80px" }} /> {/* Espaço para o BottomMenu */}
-      <BottomMenu /> {/* Adicionando o BottomMenu */}
+      <BottomMenuInstitution /> {/* Adicionando o BottomMenu */}
     </div>
   );
 }

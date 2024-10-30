@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Importando useNavigate
 import "../Styles/ProposalView.css"; // Importando o CSS
-import BottomMenu from "./BottomMenu";
+import BottomMenuInstitution from "./BottomMenuinstitution";
 
 const proposals = [
   {
@@ -52,7 +52,7 @@ function ProposalView() {
         Voltar
       </button>
       <div style={{ marginBottom: "80px" }} /> {/* Espaço para o BottomMenu */}
-      <BottomMenu /> {/* Adicionando o BottomMenu */}
+      <BottomMenuInstitution /> {/* Adicionando o BottomMenu */}
     </div>
   );
 }

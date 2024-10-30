@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Importando useNavigate
-import BottomMenu from "./BottomMenu"; // Importando o BottomMenu
+import BottomMenuInstitution from "./BottomMenuinstitution"; // Importando o BottomMenu
 
 const RegisterEquipment = () => {
   const navigate = useNavigate(); // Hook para navegação
@@ -88,7 +88,7 @@ const RegisterEquipment = () => {
         </button>
       </form>
       <div style={{ marginBottom: "80px" }} /> {/* Espaço para o BottomMenu */}
-      <BottomMenu /> {/* Adicionando o BottomMenu */}
+      <BottomMenuInstitution /> {/* Adicionando o BottomMenu */}
     </div>
   );
 };

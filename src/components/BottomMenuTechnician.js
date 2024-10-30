@@ -9,7 +9,7 @@ import {
   FaEye,
 } from "react-icons/fa"; // Importando ícones
 
-const BottomMenu = () => {
+const BottomMenuTechnician = () => {
   const navigate = useNavigate(); // Hook para navegação
   const location = useLocation(); // Hook para obter a localização atual
 
@@ -104,4 +104,4 @@ const styles = {
   },
 };
 
-export default BottomMenu;
+export default BottomMenuTechnician;

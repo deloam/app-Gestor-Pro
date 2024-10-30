@@ -1,24 +1,38 @@
 import React from "react";
-import Header from "./Header"; // Corrigido para importar o componente Header
+import { useNavigate } from "react-router-dom";
+import { FaEye, FaPaperPlane, FaHistory } from "react-icons/fa"; // Importando os ícones
+import "../Styles/TechnicianHome.css";
 
 const TechnicianHome = () => {
+  const navigate = useNavigate();
+
   return (
-    <div>
-      <Header userType="Técnico" />
-      <div style={styles.container}>
-        <h1>Bem-vindo ao Técnico</h1>
-        <p>Esta é a página do Técnico.</p>
+    <div className="technician-home">
+      <div className="button-container">
+        <button
+          className="highlighted-button"
+          onClick={() => navigate("/open-calls")}
+        >
+          <FaEye className="button-icon" />
+          Visualizar Chamados Abertos
+        </button>
+        <button
+          className="normal-button"
+          onClick={() => navigate("/send-proposals")}
+        >
+          <FaPaperPlane className="button-icon" />
+          Enviar Propostas
+        </button>
+        <button
+          className="normal-button"
+          onClick={() => navigate("/service-history")}
+        >
+          <FaHistory className="button-icon" />
+          Histórico de Serviços
+        </button>
       </div>
     </div>
   );
-};
-
-const styles = {
-  container: {
-    textAlign: "center",
-    padding: "20px",
-    backgroundColor: "#ffcc29", // Amarelo da bandeira do Brasil
-  },
 };
 
 export default TechnicianHome;

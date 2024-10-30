@@ -65,6 +65,7 @@ const InstitutionHome = () => {
 
 const styles = {
   container: {
+    borderRadius: "10px",
     textAlign: "center",
     padding: "20px",
     backgroundColor: "#ffcc29", // Amarelo da bandeira do Brasil
