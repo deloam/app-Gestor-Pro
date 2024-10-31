@@ -15,7 +15,7 @@ const TelaSaque = () => {
   const [showModal, setShowModal] = useState(false);
 
   // Dados fictícios
-  const saldoDisponivel = 2500.0;
+  const saldoDisponivel = 3550.0;
 
   const historicoSaques = [
     {

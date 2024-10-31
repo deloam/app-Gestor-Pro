@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import {
   BsCalendar,
   BsCash,
-  BsCheckCircle,
   BsPercent,
   BsClock,
   BsFileText,
