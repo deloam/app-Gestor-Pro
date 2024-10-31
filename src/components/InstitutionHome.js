@@ -1,6 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Importando useNavigate
-import { FaPlus, FaTools, FaHistory, FaTable, FaEye } from "react-icons/fa"; // Importando ícones
+import {
+  FaPlus,
+  FaTools,
+  FaHistory,
+  FaFileAlt,
+  FaTable,
+  FaEye,
+} from "react-icons/fa"; // Importando ícones
 import { TbCashRegister } from "react-icons/tb";
 
 import Header from "./Header"; // Importando o componente Header
@@ -35,7 +42,7 @@ const InstitutionHome = () => {
             Histórico de Equipamentos
           </button>
           <button style={styles.button}>
-            <TbCashRegister style={styles.icon} />
+            <FaFileAlt style={styles.icon} />
             Pagamentos
           </button>
           <button
