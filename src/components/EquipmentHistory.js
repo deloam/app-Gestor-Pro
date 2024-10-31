@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Importando useNavigate
 import BottomMenuInstitution from "./BottomMenuinstitution"; // Importando o BottomMenu
 import "../Styles/EquipmentHistory.css";
@@ -38,16 +37,6 @@ const equipmentData = [
 
 function EquipmentHistory() {
   const navigate = useNavigate(); // Hook para navegação
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 600);
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   const renderMobileView = (equipment) => (
     <div key={equipment.id} className="equipment-card">

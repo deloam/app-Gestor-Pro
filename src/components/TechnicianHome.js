@@ -18,7 +18,7 @@ const TechnicianHome = () => {
         </button>
         <button
           className="normal-button"
-          onClick={() => navigate("/send-proposals")}
+          onClick={() => navigate("/send-proposal")}
         >
           <FaPaperPlane className="button-icon" />
           Enviar Propostas

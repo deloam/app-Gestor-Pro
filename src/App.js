@@ -17,6 +17,8 @@ import PriceTable from "./components/PriceTable"; // Importando o PriceTable
 import CreateAccount from "./components/CreateAccount";
 import TechnicianRegistration from "./components/TechnicianRegistration";
 import OpenCalls from "./components/OpenCalls";
+import SendProposal from "./components/SendProposal";
+import ServiceHistory from "./components/ServiceHistory";
 
 // Adicione a nova rota dentro do componente Routes
 
@@ -50,6 +52,8 @@ function App() {
           element={<TechnicianRegistration />}
         />
         <Route path="/open-calls" element={<OpenCalls />} />
+        <Route path="/send-proposal" element={<SendProposal />} />
+        <Route path="/service-history" element={<ServiceHistory />} />
       </Routes>
     </div>
   );

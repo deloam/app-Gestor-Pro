@@ -1,13 +1,6 @@
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom"; // Importando useNavigate e useLocation
-import {
-  FaPlus,
-  FaTools,
-  FaHistory,
-  FaFileAlt,
-  FaTable,
-  FaEye,
-} from "react-icons/fa"; // Importando ícones
+import { FaEye, FaPaperPlane, FaHistory } from "react-icons/fa"; // Importando os ícones
 
 const BottomMenuTechnician = () => {
   const navigate = useNavigate(); // Hook para navegação
@@ -16,50 +9,28 @@ const BottomMenuTechnician = () => {
   return (
     <div style={styles.menu}>
       {/* Condicional para não mostrar o botão de cadastrar equipamento na tela de cadastro */}
-      {location.pathname !== "/register-equipment" && (
-        <button
-          onClick={() => navigate("/register-equipment")}
-          style={styles.button}
-        >
-          <FaPlus style={styles.icon} />
-          <span style={styles.text}>Cadastrar</span>
+      {location.pathname !== "/open-calls" && (
+        <button onClick={() => navigate("/open-calls")} style={styles.button}>
+          <FaEye style={styles.icon} />
+          <span style={styles.text}>Visualizar chamados</span>
         </button>
       )}
-      {location.pathname !== "/request-service" && (
+      {location.pathname !== "/send-proposal" && (
         <button
-          onClick={() => navigate("/request-service")}
+          onClick={() => navigate("/send-proposal")}
           style={styles.button}
         >
-          <FaTools style={styles.icon} />
-          <span style={styles.text}>Solicitar Serviço</span>
+          <FaPaperPlane style={styles.icon} />
+          <span style={styles.text}>Enviar Proposta</span>
         </button>
       )}
-      {location.pathname !== "/equipment-history" && (
+      {location.pathname !== "/service-history" && (
         <button
-          onClick={() => navigate("/equipment-history")}
+          onClick={() => navigate("/service-history")}
           style={styles.button}
         >
           <FaHistory style={styles.icon} />
           <span style={styles.text}>Histórico</span>
-        </button>
-      )}
-      <button onClick={() => navigate("/reports")} style={styles.button}>
-        <FaFileAlt style={styles.icon} />
-        <span style={styles.text}>Relatórios</span>
-      </button>
-      {location.pathname !== "/price-table" && (
-        <button onClick={() => navigate("/price-table")} style={styles.button}>
-          <FaTable style={styles.icon} />
-          <span style={styles.text}>Preços</span>
-        </button>
-      )}
-      {location.pathname !== "/proposal-view" && (
-        <button
-          onClick={() => navigate("/proposal-view")}
-          style={styles.button}
-        >
-          <FaEye style={styles.icon} />
-          <span style={styles.text}>Ver Propostas</span>
         </button>
       )}
     </div>

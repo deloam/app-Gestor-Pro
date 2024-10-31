@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../Styles/OpenCalls.css";
-import BottomMenuInstitution from "./BottomMenuinstitution";
+import BottomMenuTechnician from "./BottomMenuTechnician";
 
 const OpenCalls = () => {
   const navigate = useNavigate();
@@ -43,9 +43,7 @@ const OpenCalls = () => {
   ];
 
   const handleSendProposal = (callId) => {
-    // Aqui você implementará a navegação para a tela de envio de proposta
-    alert(`Enviar proposta para chamado ${callId}`);
-    // navigate(`/send-proposal/${callId}`);
+    navigate(`/send-proposal/${callId}`);
   };
 
   return (
@@ -92,7 +90,7 @@ const OpenCalls = () => {
         Voltar
       </button>
       <div style={{ marginBottom: "80px" }} /> {/* Espaço para o BottomMenu */}
-      <BottomMenuInstitution />
+      <BottomMenuTechnician />
     </div>
   );
 };
