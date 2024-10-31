@@ -3,12 +3,10 @@ import { useNavigate } from "react-router-dom";
 import {
   BsCalendar,
   BsPerson,
-  BsCash,
   BsTools,
   BsExclamationCircle,
 } from "react-icons/bs";
 import Header from "./Header";
-import Modal from "./Modal";
 
 const RecursoAntecipado = () => {
   const navigate = useNavigate();
@@ -70,8 +68,6 @@ const RecursoAntecipado = () => {
 
         <div style={styles.servicosContainer}>
           {servicosConcluidos.map((servico) => {
-            const taxaValor = servico.valor * taxaAntecipacao;
-            const valorFinal = servico.valor + taxaValor;
             return (
               <div key={servico.id} style={styles.servicoCard}>
                 <div style={styles.servicoGrid}>

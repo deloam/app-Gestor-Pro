@@ -69,6 +69,18 @@ input:focus {
   margin-top: 2vh; /* Margem superior em vh */
   transition: background-color 0.3s; /* Transição suave */
 }
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 80vw; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  margin-top: -20vh;
+  object-fit: contain;
+}
 
 .btn-primary:hover {
   background-color: #e6b800; /* Cor ao passar o mouse */
@@ -89,7 +101,7 @@ input:focus {
 }
 
 .btn-secondary:hover {
-  background-color: #e6b800; /* Cor ao passar o mouse */
+  background-color: #230874; /* Cor ao passar o mouse */
 }
 
 .forgot-password {

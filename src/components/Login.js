@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Importando useNavigate
 import "../Styles/Login.css"; // Importando o arquivo CSS
+import logoImage from "../assets/logo.png"; // logo
 
 const Login = () => {
   const [password, setPassword] = useState("");
@@ -19,6 +20,9 @@ const Login = () => {
 
   return (
     <div className="login-container">
+      <div className="logo-container">
+        <img src={logoImage} alt="Gestor Pro Logo" className="logo" />
+      </div>
       <div className="card">
         <h2 className="app-name">Gestor Pro</h2>
         <h1>Login</h1>

@@ -22,6 +22,8 @@ import ServiceHistory from "./components/ServiceHistory";
 import Payments from "./components/Payments";
 import RecursoAntecipado from "./components/RecursoAntecipado";
 import BoletosPendentes from "./components/BoletosPendentes";
+import HistoricoFinanceiro from "./components/HistoricoFinanceiro";
+import TelaSaque from "./components/TelaSaque";
 
 // Adicione a nova rota dentro do componente Routes
 
@@ -36,19 +38,11 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/institution" element={<InstitutionHome />} />
         <Route path="/technician" element={<TechnicianHome />} />
-        <Route
-          path="/register-equipment"
-          element={<RegisterEquipment />}
-        />{" "}
-        {/* Nova rota */}
+        <Route path="/register-equipment" element={<RegisterEquipment />} />
         <Route path="/request-service" element={<RequestService />} />{" "}
-        {/* Rota para solicitar serviço */}
         <Route path="/equipment-history" element={<EquipmentHistory />} />{" "}
-        {/* Rota para histórico de equipamentos */}
         <Route path="/proposal-view" element={<ProposalView />} />{" "}
-        {/* Rota para visualizar propostas */}
         <Route path="/price-table" element={<PriceTable />} />{" "}
-        {/* Rota para tabela de preços */}
         <Route path="/create-account" element={<CreateAccount />} />
         <Route
           path="/technician-registration"
@@ -60,6 +54,8 @@ function App() {
         <Route path="/pagamentos" element={<Payments />} />
         <Route path="/recurso-antecipado" element={<RecursoAntecipado />} />
         <Route path="/boletos-pendentes" element={<BoletosPendentes />} />
+        <Route path="/historico-financeiro" element={<HistoricoFinanceiro />} />
+        <Route path="/saque" element={<TelaSaque />} />
       </Routes>
     </div>
   );

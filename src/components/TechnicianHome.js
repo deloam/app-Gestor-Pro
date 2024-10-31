@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { FaEye, FaPaperPlane, FaHistory } from "react-icons/fa"; // Importando os ícones
+import { BiMoneyWithdraw } from "react-icons/bi";
+import { BsCashCoin } from "react-icons/bs";
 import "../Styles/TechnicianHome.css";
 
 const TechnicianHome = () => {
@@ -22,6 +24,17 @@ const TechnicianHome = () => {
         >
           <FaPaperPlane className="button-icon" />
           Enviar Propostas
+        </button>
+        <button className="normal-button" onClick={() => navigate("/saque")}>
+          <BiMoneyWithdraw className="button-icon" />
+          Saques
+        </button>
+        <button
+          className="normal-button"
+          onClick={() => navigate("/historico-financeiro")}
+        >
+          <BsCashCoin className="button-icon" />
+          Histórico de Pagamento
         </button>
         <button
           className="normal-button"

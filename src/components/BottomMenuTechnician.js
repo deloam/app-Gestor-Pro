@@ -1,12 +1,19 @@
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom"; // Importando useNavigate e useLocation
-import { FaEye, FaPaperPlane, FaHistory } from "react-icons/fa"; // Importando os ícones
+import { FaEye, FaPaperPlane, FaHistory } from "react-icons/fa";
+import { BiMoneyWithdraw } from "react-icons/bi"; // Importando os ícones
+import { BsCashCoin } from "react-icons/bs";
 
 const BottomMenuTechnician = () => {
   const navigate = useNavigate(); // Hook para navegação
   const location = useLocation(); // Hook para obter a localização atual
 
   return (
+    //visualizar chamados - ok
+    // enviar proposta - ok
+    // saques - ok
+    // historico de pagamentos - ok
+    // historico de servicos - ok
     <div style={styles.menu}>
       {/* Condicional para não mostrar o botão de cadastrar equipamento na tela de cadastro */}
       {location.pathname !== "/open-calls" && (
@@ -22,6 +29,21 @@ const BottomMenuTechnician = () => {
         >
           <FaPaperPlane style={styles.icon} />
           <span style={styles.text}>Enviar Proposta</span>
+        </button>
+      )}
+      {location.pathname !== "/saque" && (
+        <button onClick={() => navigate("/saque")} style={styles.button}>
+          <BiMoneyWithdraw style={styles.icon} />
+          <span style={styles.text}>Saques</span>
+        </button>
+      )}
+      {location.pathname !== "/historico-financeiro" && (
+        <button
+          onClick={() => navigate("/historico-financeiro")}
+          style={styles.button}
+        >
+          <BsCashCoin style={styles.icon} />
+          <span style={styles.text}>Pagamentos</span>
         </button>
       )}
       {location.pathname !== "/service-history" && (
