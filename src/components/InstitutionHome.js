@@ -1,14 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Importando useNavigate
 import {
-  FaPlus,
-  FaTools,
-  FaHistory,
-  FaFileAlt,
-  FaTable,
-  FaEye,
-} from "react-icons/fa"; // Importando ícones
-import { TbCashRegister } from "react-icons/tb";
+  BsCashCoin,
+  BsPlus,
+  BsTools,
+  BsReverseLayoutTextWindowReverse,
+  BsEye,
+  BsTable,
+} from "react-icons/bs";
 
 import Header from "./Header"; // Importando o componente Header
 
@@ -24,39 +23,39 @@ const InstitutionHome = () => {
             style={styles.highlightedButton}
             onClick={() => navigate("/register-equipment")} // Navegação para a tela de cadastro
           >
-            <FaPlus style={styles.icon} />
+            <BsPlus style={styles.icon} />
             Cadastrar Equipamento
           </button>
           <button
             style={styles.button}
             onClick={() => navigate("/request-service")} // Navegação para a tela de solicitar serviço
           >
-            <FaTools style={styles.icon} />
+            <BsTools style={styles.icon} />
             Solicitar Serviço
           </button>
           <button
             style={styles.button}
             onClick={() => navigate("/equipment-history")} // Navegação para a tela de histórico de equipamentos
           >
-            <FaHistory style={styles.icon} />
+            <BsReverseLayoutTextWindowReverse style={styles.icon} />
             Histórico de Equipamentos
           </button>
           <button style={styles.button}>
-            <FaFileAlt style={styles.icon} />
+            <BsCashCoin style={styles.icon} />
             Pagamentos
           </button>
           <button
             style={styles.button}
             onClick={() => navigate("/price-table")}
           >
-            <FaTable style={styles.icon} />
+            <BsTable style={styles.icon} />
             Tabela de Preços Sugestivos
           </button>
           <button
             style={styles.button}
             onClick={() => navigate("/proposal-view")} // Navegação para a tela de visualizar serviço
           >
-            <FaEye style={styles.icon} />
+            <BsEye style={styles.icon} />
             Visualizar Proposta
           </button>
         </div>

@@ -1,13 +1,7 @@
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom"; // Importando useNavigate e useLocation
-import {
-  FaPlus,
-  FaTools,
-  FaHistory,
-  FaFileAlt,
-  FaTable,
-  FaEye,
-} from "react-icons/fa"; // Importando ícones
+import { FaPlus, FaTools, FaHistory, FaTable, FaEye } from "react-icons/fa"; // Importando ícones
+import { BsCashCoin } from "react-icons/bs";
 
 const BottomMenuInstitution = () => {
   const navigate = useNavigate(); // Hook para navegação
@@ -44,8 +38,8 @@ const BottomMenuInstitution = () => {
         </button>
       )}
       <button onClick={() => navigate("/reports")} style={styles.button}>
-        <FaFileAlt style={styles.icon} />
-        <span style={styles.text}>Relatórios</span>
+        <BsCashCoin style={styles.icon} />
+        <span style={styles.text}>Pagamentos</span>
       </button>
       {location.pathname !== "/price-table" && (
         <button onClick={() => navigate("/price-table")} style={styles.button}>
