@@ -79,7 +79,7 @@ const OpenCalls = () => {
             </div>
             <button
               className="send-proposal-btn"
-              onClick={() => handleSendProposal(call.id)}
+              onClick={() => handleSendProposal("")}
             >
               Enviar Proposta
             </button>

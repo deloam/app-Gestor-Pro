@@ -15,6 +15,7 @@
 .welcome {
   display: flex;
   align-items: center; /* Alinha verticalmente */
+  font-size: 2.2vh;
 }
 
 .user-icon {
@@ -27,4 +28,21 @@
 .app-name {
   color: #009c3b; /* Cor do nome do app */
   font-size: 5vw; /* Tamanho da fonte */
+  display: flex;
+  flex-direction: column;
+}
+.app-name span {
+  font-weight: bold;
+  color: #009c3b;
+}
+.app-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo {
+  width: 15vw; /* Ajuste o tamanho conforme necessário */
+  height: 40px;
+  object-fit: contain;
 }
