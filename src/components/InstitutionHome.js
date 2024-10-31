@@ -40,7 +40,10 @@ const InstitutionHome = () => {
             <BsReverseLayoutTextWindowReverse style={styles.icon} />
             Histórico de Equipamentos
           </button>
-          <button style={styles.button}>
+          <button
+            style={styles.button}
+            onClick={() => navigate("/pagamentos")} // Navegação para a tela de histórico de equipamentos
+          >
             <BsCashCoin style={styles.icon} />
             Pagamentos
           </button>

@@ -19,6 +19,9 @@ import TechnicianRegistration from "./components/TechnicianRegistration";
 import OpenCalls from "./components/OpenCalls";
 import SendProposal from "./components/SendProposal";
 import ServiceHistory from "./components/ServiceHistory";
+import Payments from "./components/Payments";
+import RecursoAntecipado from "./components/RecursoAntecipado";
+import BoletosPendentes from "./components/BoletosPendentes";
 
 // Adicione a nova rota dentro do componente Routes
 
@@ -54,6 +57,9 @@ function App() {
         <Route path="/open-calls" element={<OpenCalls />} />
         <Route path="/send-proposal" element={<SendProposal />} />
         <Route path="/service-history" element={<ServiceHistory />} />
+        <Route path="/pagamentos" element={<Payments />} />
+        <Route path="/recurso-antecipado" element={<RecursoAntecipado />} />
+        <Route path="/boletos-pendentes" element={<BoletosPendentes />} />
       </Routes>
     </div>
   );

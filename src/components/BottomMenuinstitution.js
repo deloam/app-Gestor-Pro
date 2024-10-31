@@ -37,10 +37,12 @@ const BottomMenuInstitution = () => {
           <span style={styles.text}>Histórico</span>
         </button>
       )}
-      <button onClick={() => navigate("/reports")} style={styles.button}>
-        <BsCashCoin style={styles.icon} />
-        <span style={styles.text}>Pagamentos</span>
-      </button>
+      {location.pathname !== "/pagamentos" && (
+        <button onClick={() => navigate("/pagamentos")} style={styles.button}>
+          <BsCashCoin style={styles.icon} />
+          <span style={styles.text}>Pagamentos</span>
+        </button>
+      )}
       {location.pathname !== "/price-table" && (
         <button onClick={() => navigate("/price-table")} style={styles.button}>
           <FaTable style={styles.icon} />
