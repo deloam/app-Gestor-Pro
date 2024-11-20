@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# 📱 App de Gerenciamento de Serviços Técnicos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um aplicativo moderno e intuitivo para conectar órgãos públicos e técnicos especializados em ar condicionado, facilitando o gerenciamento de equipamentos e serviços técnicos. Este projeto foi idealizado para apresentar a investidores como uma solução para gestão de chamados e manutenções.
 
-## Available Scripts
+## 🚀 Funcionalidades Principais
 
-In the project directory, you can run:
+### Para Órgãos Públicos
 
-### `npm start`
+- **Cadastro de Equipamentos:** Adicione detalhes como nome, marca, modelo, localização, e mais.
+- **Abertura de Chamados:** Descreva problemas, selecione a urgência e solicite propostas.
+- **Visualização de Propostas:** Compare técnicos com base em avaliações, preço e tempo estimado.
+- **Acompanhamento de Serviços:** Controle o status de cada serviço solicitado.
+- **Relatórios e Histórico:** Gere relatórios detalhados e acompanhe o histórico dos equipamentos.
+- **Avaliação de Técnicos:** Avalie os serviços concluídos com estrelas e comentários.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Para Técnicos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Visualização de Chamados:** Acesse chamados disponíveis e seus detalhes.
+- **Envio de Propostas:** Submeta valores e prazos estimados diretamente pelo app.
+- **Histórico de Serviços:** Veja os trabalhos realizados e seus detalhes.
+- **Sistema de Penalidades:** Receba notificações sobre problemas relatados e acompanhe status.
 
-### `npm test`
+## 🎨 Design do App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O design do app prioriza uma experiência intuitiva e funcional:
 
-### `npm run build`
+- **Fluxo claro de navegação.**
+- **Botões acessíveis** com ações bem definidas.
+- **Feedback visual** para status e interações.
+- **Interface responsiva**, compatível com dispositivos móveis.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend:**
+- **Desenvolvimento Planejado:** `React Native`, `Flutter` ou outro framework de app móvel.
+- **Versionamento de Código:** Git e GitHub.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📝 Roadmap
 
-### `npm run eject`
+- [x] Design do protótipo.
+- [ ] Desenvolvimento do frontend.
+- [ ] Conexão com backend e banco de dados.
+- [ ] Publicação nas lojas de aplicativos.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 👤 Autor
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Deloam Amorim](https://github.com/deloam)
+Desenvolvedor Fullstack | Criador do App de Gerenciamento de Serviços Técnicos
